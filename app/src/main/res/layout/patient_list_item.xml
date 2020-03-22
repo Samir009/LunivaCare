@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="10dp"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0.0px"
+            android:clipToPadding="false"
+            android:clipChildren="false"
+            app:cardElevation="2dp"
+            app:cardPreventCornerOverlap="false">
+
+            <com.robertlevonyan.views.expandable.Expandable
+                android:id="@+id/expandable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include
+                    android:id="@+id/header"
+                    layout="@layout/patient_list_header_layout" />
+
+                <include
+                    android:id="@+id/content"
+                    layout="@layout/patient_list_content_layout" />
+
+            </com.robertlevonyan.views.expandable.Expandable>
+        </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">LunivaCare</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="lunivatech">LunivaTech</string>
+    <string name="samples_to_be_collected">Samples to be collected</string>
+    <string name="total_samples_collected"> Total Samples Collected</string>
+    <string name="samples_requested">Samples Requested</string>
+    <string name="total_samples_rejected">Total Samples Rejected</string>
+    <string name="samples_history">Sample Collected History</string>
+    <string name="total_revenue">Total revenue</string>
+
+    <string name="patient_info">Patient Info</string>
+    <string name="test_info">Test Info</string>
+    <string name="bill_info">Bill Info</string>
+
+    <string name="accept"><u>Accept</u></string>
+    <string name="reject"><u>Reject</u></string>
+    <string name="view_detials"><u>View Details</u></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="default_notification_channel_id">1000</string>
+</resources>

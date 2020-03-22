@@ -1,0 +1,2 @@
+rootProject.name='LunivaCare'
+include ':app'

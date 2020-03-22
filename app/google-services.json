@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "289832624412",
+    "firebase_url": "https://lunivacare-5992c.firebaseio.com",
+    "project_id": "lunivacare-5992c",
+    "storage_bucket": "lunivacare-5992c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289832624412:android:94097fa033474da58e5ad9",
+        "android_client_info": {
+          "package_name": "com.luniva.lunivacaredemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289832624412-b474vc8bp28bf2sc3cglilcj41ps2uhh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATPxVyGAgkA9ZIR3Ais3ykLshzsR8DcIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289832624412-b474vc8bp28bf2sc3cglilcj41ps2uhh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

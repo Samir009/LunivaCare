@@ -1,0 +1,26 @@
+<resources xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light"
+        >
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorBackground</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+<!--        <item name="android:textAppearance">@color/colorPrimary</item>-->
+        <item name="android:textColorPrimary">@color/colorText</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+
+        <item name="drawerArrowStyle">@style/DrawerIcon</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_black_24dp</item>
+
+    </style>
+
+<!--    hamburger icon-->
+    <style name="DrawerIcon" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/colorPrimary</item>
+    </style>
+    
+    <style name="AppTheme.AppBarOverLay" parent="Theme.AppCompat.Light.DarkActionBar"></style>
+</resources>
